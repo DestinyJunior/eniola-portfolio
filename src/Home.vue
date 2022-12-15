@@ -42,11 +42,11 @@
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Web design</h5>
-                            <h4 class="sm:text-2xl font-semibold text-[20px]">Farmer’s DAO</h4>
+                            <h4 class="sm:text-2xl font-semibold text-xl">Farmer’s DAO</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight sm:text-[32px] text-[20px] leading-[150%]">A digital
+                            <p class="text-[#333333] tracking-tight sm:text-[32px] text-xl leading-[150%]">A digital
                                 platform that
                                 helps user find
                                 <br> tourists
@@ -67,11 +67,11 @@
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Mobile app</h5>
-                            <h4 class="sm:text-2xl font-semibold text-[20px]">Service Provider</h4>
+                            <h4 class="sm:text-2xl font-semibold text-xl">Service Provider</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-xl leading-[150%]">A
                                 digital platform that
                                 helps user find
                                 <br> tourists
@@ -90,17 +90,17 @@
 
                 <!--  -->
 
-                <div class="flex items-center space-x-[48px] mx-auto">
+                <div class="flex flex-col-reverse space-y-[32px] sm:(flex-row items-center space-x-[48px] mx-auto)">
                     <img src="/images/png/unoma.png" alt="UNOMA" class="mt-6 sm:mt-0" />
 
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Dashboard</h5>
-                            <h4 class="sm:text-2xl font-semibold text-[20px]">UNOMA</h4>
+                            <h4 class="sm:text-2xl font-semibold text-xl">UNOMA</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-xl leading-[150%]">A
                                 digital platform that
                                 helps user find
                                 <br> tourists
@@ -120,15 +120,15 @@
                 <!--  -->
 
 
-                <div class="flex items-center justify-end space-x-[48px] mx-auto">
+                <div class="flex flex-col sm:(flex-row items-center justify-end space-x-[48px] mx-auto)">
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Web design</h5>
-                            <h4 class="sm:text-2xl font-semibold text-[20px]">Eventour360</h4>
+                            <h4 class="sm:text-2xl font-semibold text-xl">Eventour360</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-xl leading-[150%]">A
                                 digital platform that
                                 helps user find
                                 <br> tourists
@@ -147,17 +147,17 @@
 
                 <!--  -->
 
-                <div class="flex items-center space-x-[48px] mx-auto">
+                <div class="flex flex-col-reverse space-y-[32px] sm:(flex-row items-center space-x-[48px] mx-auto)">
                     <img src="/images/png/grow-with-igho.png" alt="IGOWITHIGHO" class="mt-6 sm:mt-0" />
 
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Landing page</h5>
-                            <h4 class="sm:text-2xl font-semibold text-[20px]">IGOWITHIGHO</h4>
+                            <h4 class="sm:text-2xl font-semibold text-xl">IGOWITHIGHO</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-xl leading-[150%]">A
                                 digital platform that
                                 helps user find
                                 <br> tourists
@@ -178,13 +178,14 @@
         </section>
 
         <!-- about -->
-        <section class="pt-[220px]">
-            <div class="flex items-start space-x-[48px] mx-auto pb-[121px] sm:px-[110px] px-[30px]">
-                <img src="/images/png/eniola.png" alt="Eniola" class="-mt-24" />
+        <section class="sm:pt-[220px]">
+            <div
+                class="flex flex-col pb-[61px] px-[30px] sm:(flex-row items-start space-x-[48px] mx-auto pb-[121px] px-[110px])">
+                <img src="/images/png/eniola.png" alt="Eniola" class="sm:-mt-24" />
 
                 <div class="space-y-[16px]">
                     <div class="space-y-[63px]">
-                        <div class="text-[#333333] text-2xl font-normal">
+                        <div class="text-[#333333] sm:text-2xl font-normal">
                             <p class="leading-[150%]">I am a collaborative designer with
                                 a
                                 creative mind; I am fascinated in creating designs that are both functional and
@@ -220,57 +221,65 @@
 
             <!-- tools -->
 
-            <div class="flex items-center justify-center space-x-[120px] py-[65px] bg-pink-light">
-                <img src="/images/png/figma.png" alt="Figma">
-                <img src="/images/png/illustrator.png" alt="Ai">
-                <img src="/images/png/photoshop.png" alt="Ps">
-                <img src="/images/png/xd.png" alt="Xd">
-                <img src="/images/png/lightroom.png" alt="Lr">
+            <div
+                class="flex items-center justify-between py-[46px] px-[44px] sm:(justify-center space-x-[120px] py-[65px]) bg-pink-light">
+                <img src="/images/png/figma.png" class="w-[42px] h-[42px] sm:(w-auto h-auto)" alt="Figma">
+                <img src="/images/png/illustrator.png" class="w-[42px] h-[42px] sm:(w-auto h-auto)" alt="Ai">
+                <img src="/images/png/photoshop.png" class="w-[42px] h-[42px] sm:(w-auto h-auto)" alt="Ps">
+                <img src="/images/png/xd.png" class="w-[42px] h-[42px] sm:(w-auto h-auto)" alt="Xd">
+                <img src="/images/png/lightroom.png" class="w-[42px] h-[42px] sm:(w-auto h-auto)" alt="Lr">
             </div>
         </section>
 
         <section class="relative">
-            <div class="absolute flex flex-col space-y-[51px] left-[71px] top-[28%]">
+            <div
+                class="absolute flex flex-col space-y-[29px] left-[20px] top-[43%] sm:(space-y-[51px] left-[71px] top-[28%])">
                 <a>
-                    <img src="/images/svg/mail.svg" alt="Email">
+                    <img src="/images/svg/mail.svg" class="w-[20px] h-20px sm:(w-auto h-auto)" alt="Email">
                 </a>
                 <a>
-                    <img src="/images/svg/twitter.svg" alt="Twitter">
+                    <img src="/images/svg/twitter.svg" class="w-[20px] h-20px sm:(w-auto h-auto)" alt="Twitter">
                 </a>
                 <a>
-                    <img src="/images/svg/instagram.svg" alt="Instagram">
+                    <img src="/images/svg/instagram.svg" class="w-[20px] h-20px sm:(w-auto h-auto)" alt="Instagram">
                 </a>
             </div>
-            <div class="pt-[120px] pb-[165px] flex flex-col items-center space-y-[131px]">
+            <div
+                class="flex flex-col items-center pt-[60px] pb-[80px] space-y-[65px] sm:(pt-[120px] pb-[165px] space-y-[131px])">
                 <div class="space-y-[65px]">
                     <div class="space-y-[40px]">
-                        <h2 class="text-[64px] font-semibold tracking-tight text-[#333333]">Take A Coffee & Chat With Me
+                        <h2 class="sm:text-[64px] text-2xl font-semibold tracking-tight text-[#333333] text-center">Take
+                            A Coffee &
+                            Chat With Me
                         </h2>
-                        <p class="text-center text-[32px] font-light leading-[150%]">See out what happens when great
-                            projects <br>
+                        <p class="text-center sm:text-[32px] text-xl font-light leading-[150%]">See out what happens
+                            when great
+                            <br class="sm:hidden block"> projects <br class="sm:block hidden">
                             are
                             combined with
-                            amazing
+                            <br class="sm:hidden block"> amazing
                             design.
                         </p>
                     </div>
 
-                    <div class="w-full flex space-x-[78px]">
+                    <div
+                        class="w-full flex flex-col items-center space-y-[39px] sm:(flex-row space-x-[78px] space-y-0)">
                         <div
-                            class="w-[435px] flex items-center justify-center bg-pink-light-100 py-[30px] rounded-[20px] space-x-[32px]">
-                            <img src="/images/png/opened-envelope.png" alt="Email">
-                            <span class="text-2xl font-medium text-[#5E5E5E]">ajiboyeniola@gmail.com</span>
+                            class="sm:w-[435px] w-[275px] flex items-center justify-center bg-pink-light-100 rounded-[10px] py-[15px] space-x-[16px] sm:(py-[30px] rounded-[20px] space-x-[32px])">
+                            <img src="/images/png/opened-envelope.png" class="h-[30px] w-[30px] sm:(w-auto h-auto)"
+                                alt="Email">
+                            <span class="sm:text-2xl text-sm font-medium text-[#5E5E5E]">ajiboyeniola@gmail.com</span>
                         </div>
                         <div
-                            class="w-[435px] flex items-center justify-center bg-pink-light-100 py-[30px] rounded-[20px] space-x-[32px]">
-                            <img src="/images/png/call.png" alt="Email">
-                            <span class="text-2xl font-medium text-[#5E5E5E]">ajiboyeniola@gmail.com</span>
+                            class="sm:w-[435px] w-[238px] flex items-center justify-center bg-pink-light-100 rounded-[10px] py-[15px] space-x-[16px] sm:(py-[30px] rounded-[20px] space-x-[32px])">
+                            <img src="/images/png/call.png" class="h-[30px] w-[30px] sm:(w-auto h-auto)" alt="Email">
+                            <span class="sm:text-2xl text-sm font-medium text-[#5E5E5E]">+234 7063 872 644</span>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="text-center space-y-3 text-2xl font-normal">
+                <div class="text-center space-y-3 sm:text-2xl text-lg font-normal">
                     <p>© 2022 Ajiboye Eniola</p>
                     <p>Designed and implemented by
                         <br> Eniola & Destiny
