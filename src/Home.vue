@@ -12,7 +12,7 @@
                 <img src="/images/svg/align-right.svg" alt="">
             </button>
             <!-- links -->
-            <ul class="flex space-x-[47px] hidden sm:block">
+            <ul class="sm:flex space-x-[47px] hidden">
                 <li class="text-[#EB6854] text-2xl font-semibold">Portfolio</li>
                 <li class="text-2xl font-normal">About me</li>
                 <li class="text-2xl font-normal">Contact</li>
@@ -28,8 +28,8 @@
         </div>
 
         <!-- selected works -->
-        <section class="space-y-[24px] px-[30px] sm:(space-y-[68px] px-[110px])">
-            <div>
+        <section class="space-y-[4px] px-[30px] sm:(space-y-[68px] px-[110px])">
+            <div class="-mb-6 sm:-mb-0">
                 <h4 class="sm:text-[40px] text-2xl font-light"><span class="opacity-50">Selected</span> <span
                         class="text-[#EB6854] font-semibold">Works</span></h4>
             </div>
