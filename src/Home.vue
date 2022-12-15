@@ -2,20 +2,24 @@
 </script>
 
 <template>
-    <div class="pt-[79px]">
-        <nav class="flex items-center justify-between px-[110px]">
+    <div class="sm:pt-[79px] pt-[69px]">
+        <nav class="flex items-start justify-between px-[30px] sm:(px-[110px] items-center)">
             <div>
-                <img src="/images/png/logo.png" class="h-[113px] w-[201px]" alt="Eniola">
+                <img src="/images/png/logo.png" class="w-[111px] h-[62px] sm:(h-[113px] w-[201px])" alt="Eniola">
             </div>
+
+            <button class="sm:hidden block">
+                <img src="/images/svg/align-right.svg" alt="">
+            </button>
             <!-- links -->
-            <ul class="flex space-x-[47px]">
+            <ul class="flex space-x-[47px] hidden sm:block">
                 <li class="text-[#EB6854] text-2xl font-semibold">Portfolio</li>
                 <li class="text-2xl font-normal">About me</li>
                 <li class="text-2xl font-normal">Contact</li>
             </ul>
         </nav>
-        <div class="pb-[120px] py-[65px] mx-auto">
-            <p class="font-light text-[56px] text-center tracking-wide leading-[150%]">
+        <div class="pt-[42px] pb-[50px] mx-auto sm:(pb-[120px] pt-[65px])">
+            <p class="font-light sm:text-[56px] text-2xl text-center tracking-wide leading-[150%]">
                 Hello! I’m <span class="text-[#EB6854] font-semibold">Eniola Ajiboye</span>. A <br> skilled product
                 designer
                 based
@@ -24,24 +28,26 @@
         </div>
 
         <!-- selected works -->
-        <section class="space-y-[68px] px-[110px]">
+        <section class="space-y-[24px] px-[30px] sm:(space-y-[68px] px-[110px])">
             <div>
-                <h4 class="text-[40px] font-light"><span class="opacity-50">Selected</span> <span
+                <h4 class="sm:text-[40px] text-2xl font-light"><span class="opacity-50">Selected</span> <span
                         class="text-[#EB6854] font-semibold">Works</span></h4>
             </div>
 
-            <div>
-                <div class="flex items-center space-x-[48px] mx-auto">
-                    <img src="/images/png/farmers-dao.png" alt="farmersDao" />
+            <div class="space-y-[54px] sm:space-y-[68px]">
+
+                <div class="flex flex-col-reverse space-y-[32px] sm:(flex-row items-center space-x-[48px] mx-auto)">
+                    <img src="/images/png/farmers-dao.png" alt="farmersDao" class="mt-6 sm:mt-0" />
 
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Web design</h5>
-                            <h4 class="text-2xl font-semibold">Farmer’s DAO</h4>
+                            <h4 class="sm:text-2xl font-semibold text-[20px]">Farmer’s DAO</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight text-[32px] leading-[150%]">A digital platform that
+                            <p class="text-[#333333] tracking-tight sm:text-[32px] text-[20px] leading-[150%]">A digital
+                                platform that
                                 helps user find
                                 <br> tourists
                                 centre and event
@@ -49,25 +55,24 @@
                                 particular city
                             </p>
 
-                            <button class="bg-[#EB6854] text-white rounded-[40px] py-[15px] px-7 tracking-wider">View
+                            <button
+                                class="bg-[#EB6854] text-white rounded-[40px] px-[21px] py-[11px] sm:(py-[15px] px-7) tracking-wider">View
                                 project</button>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!--  -->
-
-            <div>
-                <div class="flex items-center justify-end space-x-[48px] mx-auto">
+                <!--  -->
+                <div class="flex flex-col sm:(flex-row items-center justify-end space-x-[48px] mx-auto)">
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Mobile app</h5>
-                            <h4 class="text-2xl font-semibold">Service Provider</h4>
+                            <h4 class="sm:text-2xl font-semibold text-[20px]">Service Provider</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight text-[32px] leading-[150%]">A digital platform that
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                                digital platform that
                                 helps user find
                                 <br> tourists
                                 centre and event
@@ -75,26 +80,28 @@
                                 particular city
                             </p>
 
-                            <button class="bg-[#EB6854] text-white rounded-[40px] py-[15px] px-7 tracking-wider">View
+                            <button
+                                class="bg-[#EB6854] text-white rounded-[40px] px-[21px] py-[11px] sm:(py-[15px] px-7) tracking-wider">View
                                 project</button>
                         </div>
                     </div>
-                    <img src="/images/png/service-provider.png" alt="farmersDao" />
+                    <img src="/images/png/service-provider.png" alt="Service" class="mt-6 sm:mt-0" />
                 </div>
-            </div>
-            <!--  -->
-            <div>
+
+                <!--  -->
+
                 <div class="flex items-center space-x-[48px] mx-auto">
-                    <img src="/images/png/unoma.png" alt="UNOMA" />
+                    <img src="/images/png/unoma.png" alt="UNOMA" class="mt-6 sm:mt-0" />
 
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Dashboard</h5>
-                            <h4 class="text-2xl font-semibold">UNOMA</h4>
+                            <h4 class="sm:text-2xl font-semibold text-[20px]">UNOMA</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight text-[32px] leading-[150%]">A digital platform that
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                                digital platform that
                                 helps user find
                                 <br> tourists
                                 centre and event
@@ -102,25 +109,27 @@
                                 particular city
                             </p>
 
-                            <button class="bg-[#EB6854] text-white rounded-[40px] py-[15px] px-7 tracking-wider">View
+                            <button
+                                class="bg-[#EB6854] text-white rounded-[40px] px-[21px] py-[11px] sm:(py-[15px] px-7) tracking-wider">View
                                 project</button>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!--  -->
 
-            <div>
+                <!--  -->
+
+
                 <div class="flex items-center justify-end space-x-[48px] mx-auto">
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Web design</h5>
-                            <h4 class="text-2xl font-semibold">Eventour360</h4>
+                            <h4 class="sm:text-2xl font-semibold text-[20px]">Eventour360</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight text-[32px] leading-[150%]">A digital platform that
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                                digital platform that
                                 helps user find
                                 <br> tourists
                                 centre and event
@@ -128,26 +137,28 @@
                                 particular city
                             </p>
 
-                            <button class="bg-[#EB6854] text-white rounded-[40px] py-[15px] px-7 tracking-wider">View
+                            <button
+                                class="bg-[#EB6854] text-white rounded-[40px] px-[21px] py-[11px] sm:(py-[15px] px-7) tracking-wider">View
                                 project</button>
                         </div>
                     </div>
-                    <img src="/images/png/eventour.png" alt="Eventour360" />
+                    <img src="/images/png/eventour.png" alt="Eventour360" class="mt-6 sm:mt-0" />
                 </div>
-            </div>
-            <!--  -->
-            <div>
+
+                <!--  -->
+
                 <div class="flex items-center space-x-[48px] mx-auto">
-                    <img src="/images/png/grow-with-igho.png" alt="farmersDao" />
+                    <img src="/images/png/grow-with-igho.png" alt="IGOWITHIGHO" class="mt-6 sm:mt-0" />
 
                     <div class="space-y-[16px]">
                         <div>
                             <h5 class="text-base font-light text-[#EB6854]">Landing page</h5>
-                            <h4 class="text-2xl font-semibold">IGOWITHIGHO</h4>
+                            <h4 class="sm:text-2xl font-semibold text-[20px]">IGOWITHIGHO</h4>
                         </div>
 
                         <div class="space-y-[24px]">
-                            <p class="text-[#333333] tracking-tight text-[32px] leading-[150%]">A digital platform that
+                            <p class="text-[#333333] tracking-tight  sm:text-[32px] text-[20px] leading-[150%]">A
+                                digital platform that
                                 helps user find
                                 <br> tourists
                                 centre and event
@@ -155,7 +166,8 @@
                                 particular city
                             </p>
 
-                            <button class="bg-[#EB6854] text-white rounded-[40px] py-[15px] px-7 tracking-wider">View
+                            <button
+                                class="bg-[#EB6854] text-white rounded-[40px] px-[21px] py-[11px] sm:(py-[15px] px-7) tracking-wider">View
                                 project</button>
                         </div>
                     </div>
@@ -167,7 +179,7 @@
 
         <!-- about -->
         <section class="pt-[220px]">
-            <div class="flex items-start space-x-[48px] mx-auto pb-[121px] px-[110px]">
+            <div class="flex items-start space-x-[48px] mx-auto pb-[121px] sm:px-[110px] px-[30px]">
                 <img src="/images/png/eniola.png" alt="Eniola" class="-mt-24" />
 
                 <div class="space-y-[16px]">
@@ -199,7 +211,8 @@
                                 put things into practice.</p>
                         </div>
 
-                        <button class="bg-[#EB6854] text-white rounded-[40px] py-[15px] px-7 tracking-wider">Download
+                        <button
+                            class="bg-[#EB6854] text-white rounded-[40px] px-[21px] py-[11px] sm:(py-[15px] px-7) tracking-wider">Download
                             CV</button>
                     </div>
                 </div>
